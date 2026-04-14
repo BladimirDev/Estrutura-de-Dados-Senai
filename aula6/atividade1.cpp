@@ -76,7 +76,7 @@ void exibir() {
     struct No *aux = inicio;// Exibir lista
 
     while (aux != NULL) {
-        cout << aux->dado << " -> ";
+        cout << aux->dado << " > ";
         aux = aux->prox;
     }
     cout << "NULL" << endl;
